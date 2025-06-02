@@ -1,0 +1,34 @@
+
+/dev/block/platform/bootdevice/by-name/prism          /prism                    ext4    ro,barrier=1 nofail,avb,first_stage_mount
+/dev/block/platform/bootdevice/by-name/optics         /optics                   ext4    ro,barrier=1 nofail,avb,first_stage_mount
+/dev/block/platform/bootdevice/by-name/md_udc	      /metadata	                ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,formattable,first_stage_mount,check
+/dev/block/platform/bootdevice/by-name/cache	      /cache	                ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+/dev/block/platform/bootdevice/by-name/userdata	      /data	                f2fs    noatime,nosuid,nodev,discard,usrquota,grpquota,fsync_mode=nobarrier,reserve_root=32768,resgid=5678	wait,check,,quota,reservedsize=128M,,resize,checkpoint=fs,encryptable=aes-256-xts
+/dev/block/platform/bootdevice/by-name/protect1	      /mnt/vendor/protect_f	ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+/dev/block/platform/bootdevice/by-name/protect2	      /mnt/vendor/protect_s	ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+/dev/block/platform/bootdevice/by-name/nvdata	      /mnt/vendor/nvdata	ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+/dev/block/platform/bootdevice/by-name/nvcfg	      /mnt/vendor/nvcfg	        ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+/dev/block/platform/bootdevice/by-name/efs	      /mnt/vendor/efs           ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+/dev/block/platform/bootdevice/by-name/sec_efs        /efs                      ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+
+/dev/block/platform/bootdevice/by-name/frp            /persistent               emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/nvram          /nvram                    emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/proinfo        /proinfo                  emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/lk             /bootloader               emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/para           /para                     emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/misc           /misc                     emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/recovery       /recovery                 emmc    defaults first_stage_mount,nofail,
+/dev/block/platform/bootdevice/by-name/boot           /boot                     emmc    defaults first_stage_mount,nofail,
+/dev/block/platform/bootdevice/by-name/expdb          /expdb                    emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/seccfg         /seccfg                   emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/tee1           /tee1                     emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/md1img         /md1img                   emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/gz1            /gz1                      emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/gz2            /gz2                      emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/spmfw          /spmfw                    emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/mcupmfw        /mcupmfw                  emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/boot_para      /boot_para                emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/dtbo           /dtbo                     emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/loader_ext1    /loader_ext1              emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/loader_ext2    /loader_ext2              emmc    defaults defaults
+/dev/block/platform/bootdevice/by-name/vbmeta         /vbmeta                   emmc    defaults defaults
