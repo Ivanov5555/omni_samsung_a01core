@@ -15,7 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-DEVICE_PATH := device/samsung/a01core
+DEVICE_PATH := device/sm/a01core
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
