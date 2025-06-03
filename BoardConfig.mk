@@ -95,7 +95,7 @@ BOARD_MKBOOTIMG_ARGS := \
 	--header_version $(BOARD_BOOTIMG_HEADER_VERSION) \
 	--board $(TARGET_BOOTLOADER_BOARD_NAME) \
 	--dtb $(BOARD_PREBUILT_DTBIMAGE) \
-	--dtb_offset $(BOARD_DTB_OFFSET)
+	--dtb_offset $(BOARD_DTB_OFFSET) \
         --partition_size $(BOARD_RECOVERYIMAGE_PARTITION_SIZE)
 
 # Android Verified Boot
