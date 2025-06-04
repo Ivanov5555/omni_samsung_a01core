@@ -1,15 +1,19 @@
+/dev/block/mapper/system  /system_root  ext4
+/dev/block/mapper/vendor  /vendor                 ext4
+/dev/block/mapper/product  /product                ext4 
+/dev/block/mapper/odm   /odm                    ext4
 
-/dev/block/platform/bootdevice/by-name/prism          /prism                    ext4    ro,barrier=1 nofail,avb,first_stage_mount
-/dev/block/platform/bootdevice/by-name/optics         /optics                   ext4    ro,barrier=1 nofail,avb,first_stage_mount
-/dev/block/platform/bootdevice/by-name/md_udc	      /metadata	                ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,formattable,first_stage_mount,check
-/dev/block/platform/bootdevice/by-name/cache	      /cache	                ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
-/dev/block/platform/bootdevice/by-name/userdata	      /data	                f2fs    noatime,nosuid,nodev,discard,usrquota,grpquota,fsync_mode=nobarrier,reserve_root=32768,resgid=5678	wait,check,,quota,reservedsize=128M,,resize,checkpoint=fs,encryptable=aes-256-xts
-/dev/block/platform/bootdevice/by-name/protect1	      /mnt/vendor/protect_f	ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
-/dev/block/platform/bootdevice/by-name/protect2	      /mnt/vendor/protect_s	ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
-/dev/block/platform/bootdevice/by-name/nvdata	      /mnt/vendor/nvdata	ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
-/dev/block/platform/bootdevice/by-name/nvcfg	      /mnt/vendor/nvcfg	        ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
-/dev/block/platform/bootdevice/by-name/efs	      /mnt/vendor/efs           ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
-/dev/block/platform/bootdevice/by-name/sec_efs        /efs                      ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+# /dev/block/platform/bootdevice/by-name/prism          /prism                    ext4    ro,barrier=1 nofail,avb,first_stage_mount
+# /dev/block/platform/bootdevice/by-name/optics         /optics                   ext4    ro,barrier=1 nofail,avb,first_stage_mount
+# /dev/block/platform/bootdevice/by-name/md_udc	      /metadata	                ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,formattable,first_stage_mount,check
+/dev/block/platform/bootdevice/by-name/cache	      /cache	                ext4    
+/dev/block/platform/bootdevice/by-name/userdata	      /data	                f2fs    
+# /dev/block/platform/bootdevice/by-name/protect1	      /mnt/vendor/protect_f	ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+# /dev/block/platform/bootdevice/by-name/protect2	      /mnt/vendor/protect_s	ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+# /dev/block/platform/bootdevice/by-name/nvdata	      /mnt/vendor/nvdata	ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+# /dev/block/platform/bootdevice/by-name/nvcfg	      /mnt/vendor/nvcfg	        ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+# /dev/block/platform/bootdevice/by-name/efs	      /mnt/vendor/efs           ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
+# /dev/block/platform/bootdevice/by-name/sec_efs        /efs                      ext4    noatime,nosuid,nodev,noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic	wait,check,formattable
 
 /dev/block/platform/bootdevice/by-name/frp            /persistent               emmc    defaults defaults
 /dev/block/platform/bootdevice/by-name/nvram          /nvram                    emmc    defaults defaults
