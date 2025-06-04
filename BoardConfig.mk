@@ -97,7 +97,7 @@ BOARD_MKBOOTIMG_ARGS := \
     --recovery_dtbo $(BOARD_PREBUILT_DTBOIMAGE) \
 	--dtb_offset $(BOARD_DTB_OFFSET) 
 
-# BOARD_CUSTOM_BOOTIMG_MK := device/sm/a01core/mkboot/bootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/sm/a01core/mkboot/bootimg.mk
 
 # Crypto #
 PLATFORM_SECURITY_PATCH := 2025-11-05
