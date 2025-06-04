@@ -95,8 +95,6 @@ BOARD_MKBOOTIMG_ARGS := \
     --recovery_dtbo $(BOARD_PREBUILT_DTBOIMAGE) \
 	--dtb_offset $(BOARD_DTB_OFFSET) 
 
-# BOARD_CUSTOM_BOOTIMG_MK := device/sm/a01core/mkboot/bootimg.mk
-
 # Crypto #
 PLATFORM_SECURITY_PATCH := 2025-11-05
 VENDOR_SECURITY_PATCH := 2025-11-05
@@ -130,4 +128,5 @@ TARGET_USES_MKE2FS := true
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TW_DEVICE_VERSION := Matrosov,inc.
+# TW_CUSTOM_THEME := device/sm/a01core/twres
 
