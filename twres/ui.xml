@@ -1,0 +1,910 @@
+﻿<?xml version="1.0"?>
+<recovery>
+	<details>
+		<resolution width="1080" height="1920"/>
+		<author>G.M.L.</author>
+		<title>Transparency</title>
+		<description>Transparency</description>
+		<preview>preview.png</preview>
+		<themeversion>4</themeversion>
+	</details>
+
+	<include>
+		<xmlfile name="portrait.xml"/>
+	</include>
+
+	<resources>
+		<font name="console" filename="DroidSansMono.ttf" size="35"/>
+		<font name="font_l" filename="RobotoCondensed-Regular.ttf" size="50"/>
+		<font name="font_l2" filename="pb.ttf" size="50"/>
+		<font name="font_m" filename="RobotoCondensed-Regular.ttf" size="42"/>
+		<font name="font_s" filename="RobotoCondensed-Regular.ttf" size="42"/>
+		<font name="fixed" filename="DroidSansMono.ttf" size="35"/>
+		<font name="time" filename="DroidSansMono.ttf" size="70" fallback="Roboto-Condensed-40" />
+		<font name="pbtime" filename="pb.ttf" size="70" fallback="Roboto-Condensed-40" />
+		<font name="pbtimeup" filename="pb.ttf" size="42" fallback="Roboto-Condensed-40" />
+		<font name="keylabel" filename="RobotoCondensed-Regular.ttf" size="50"/>
+		<font name="keylabel-small" filename="RobotoCondensed-Regular.ttf" size="40"/>
+		<font name="keylabel-longpress" filename="RobotoCondensed-Regular.ttf" size="40"/>
+
+		<image name="append_date" filename="append_date"/>
+		<image name="back" filename="back"/>
+		<image name="background_fmo" filename="background_fmo"/>
+		<image name="backspace" filename="backspace"/>
+		<image name="checkbox_false" filename="checkbox_false"/>
+		<image name="checkbox_true" filename="checkbox_true"/>
+		<image name="console" filename="console"/>
+		<image name="cursor" filename="cursor"/>
+		<image name="db_empty" filename="db_empty"/>
+		<image name="db_hl" filename="db_hl"/>
+		<image name="dialog_bg" filename="dialog_bg"/>
+		<image name="dialog_linux" filename="dialog_linux"/>
+		<image name="enter" filename="enter"/>
+		<image name="fab_close" filename="fab_close"/>
+		<image name="fab_selectfolder" filename="fab_selectfolder"/>
+		<image name="file" filename="file"/>
+		<image name="folder" filename="folder"/>
+		<image name="gml_logo" filename="gml_logo"/>
+		<image name="handle" filename="handle"/>
+		<image name="home" filename="home"/>
+		<image name="icon_about" filename="icon_about"/>
+		<image name="icon_creator" filename="icon_creator"/>
+		<image name="icon_credits" filename="icon_credits"/>
+		<image name="icon_date" filename="icon_date"/>
+		<image name="icon_theme" filename="icon_theme"/>
+		<image name="kb_arrow_down" filename="kb_arrow_down"/>
+		<image name="kb_arrow_left" filename="kb_arrow_left"/>
+		<image name="kb_arrow_right" filename="kb_arrow_right"/>
+		<image name="kb_arrow_up" filename="kb_arrow_up"/>
+		<image name="kb_hide" filename="kb_hide"/>
+		<image name="kb_show" filename="kb_show"/>
+		<image name="main_button" filename="main_button"/>
+		<image name="main_button_fmo" filename="main_button_fmo"/>
+		<image name="main_button_h" filename="main_button_h"/>
+		<image name="main_button_half_height" filename="main_button_half_height"/>
+		<image name="main_button_half_height_full_width" filename="main_button_half_height_full_width"/>
+		<image name="main_button_reboot" filename="main_button_reboot"/>
+		<image name="menu_button" filename="menu_button"/>
+		<image name="menu_background" filename="menu_background"/>
+		<image name="opacity" filename="opacity"/>
+		<image name="progress_empty" filename="progress_empty"/>
+		<image name="progress_fill" filename="progress_fill"/>
+		<image name="radio_false" filename="radio_false"/>
+		<image name="radio_true" filename="radio_true"/>
+		<image name="shift" filename="shift"/>
+		<image name="shift_fill" filename="shift_fill"/>
+		<image name="slider" filename="slider"/>
+		<image name="slider_touch" filename="slider_touch"/>
+		<image name="sort_asc" filename="sort_asc"/>
+		<image name="sort_desc" filename="sort_desc"/>
+		<image name="sort_empty" filename="sort_empty"/>
+		<image name="space" filename="space"/>
+		<image name="tab_3" filename="tab_3"/>
+		<image name="tab_4" filename="tab_4"/>
+        <image name="background" filename="background"/>
+        <image name="tab_menu" filename="tab_menu"/>
+        <image name="unlock_icon" filename="background"/>
+        <image name="fifty" filename="fifty"/>
+        <image name="fifty_l" filename="fifty_l"/>
+	</resources>
+
+	<variables>
+		<variable name="ab1_btn1_x" value="944"/>
+		<variable name="ab1_y" value="310"/>
+		<variable name="ab2_y" value="100"/>
+		<variable name="ab_back_x" value="12"/>
+		<variable name="ab_bc_y" value="114"/>
+		<variable name="ab_btn1_x" value="924"/>
+		<variable name="ab_y" value="84"/>
+		<variable name="about_back" value="#00000033"/>
+		<variable name="accent" value="#00000030"/>
+		<variable name="accent_color" value="#ffffff00"/>
+		<variable name="accent_color_semitransparent" value="#ffffff00"/>
+		<variable name="accent_color_theme" value="#c80101"/>
+		<variable name="back_button_x" value="240"/>
+		<variable name="background_color" value="#00000000"/>
+		<variable name="background_color_theme" value="#000000"/>
+		<variable name="battery_right" value="890"/>
+		<variable name="battery_up" value="15"/>
+		<variable name="bookmark" value="0" persist="1"/>
+		<variable name="btn1_row" value="435"/>
+		<variable name="btn2_row" value="713"/>
+		<variable name="btn3_col2_x" value="384"/>
+		<variable name="btn3_col3_x" value="732"/>
+		<variable name="btn3_col3_x_r" value="768"/>
+		<variable name="btn3_row" value="991"/>
+		<variable name="btn4_col2_x" value="297"/>
+		<variable name="btn4_col3_x" value="558"/>
+		<variable name="btn4_col4_x" value="819"/>
+		<variable name="btn4_row" value="1269"/>
+		<variable name="btn5_row" value="1031"/>
+		<variable name="btn6_row" value="1205"/>
+		<variable name="btn7_row" value="1379"/>
+		<variable name="btn8_row" value="1553"/>
+		<variable name="btn_float_x" value="852"/>
+		<variable name="caps_highlight_color" value="#22222280"/>
+		<variable name="center_x" value="540"/>
+		<variable name="col1_x" value="124"/>
+		<variable name="col1_x_header" value="184"/>
+		<variable name="col1_x_indent" value="216"/>
+		<variable name="col1_x_left" value="124"/>
+		<variable name="col1_x_right" value="576"/>
+		<variable name="console_button_x" value="840"/>
+		<variable name="console_height" value="960"/>
+		<variable name="console_terminal_height" value="950"/>
+		<variable name="content_overlay_width" value="936"/>
+		<variable name="content_width" value="1008"/>
+		<variable name="content_width2" value="876"/>
+		<variable name="cpu_color" value="#ffffff"/>
+		<variable name="current_date" value="0" persist="1"/>
+		<variable name="dialog_button_x" value="696"/>
+		<variable name="dialog_front" value="#00000033"/>
+		<variable name="dialog_height" value="704"/>
+		<variable name="error" value="#FF0101"/>
+		<variable name="fileselector_filemanager_height" value="1376"/>
+		<variable name="fileselector_highlight_color" value="#555555"/>
+		<variable name="fileselector_install_height" value="1152"/>
+		<variable name="fileselector_linecolor" value="#ffffff00"/>
+		<variable name="fileselector_linecolor2" value="#ffffff"/>
+		<variable name="fileselector_separatorheight" value="2"/>
+		<variable name="fileselector_spacing" value="0"/>
+		<variable name="header_color" value="#ffffff"/>
+		<variable name="header_height" value="256"/>
+		<variable name="highlight" value="#ffffff"/>
+		<variable name="highlight_color" value="#ffffff00"/>
+		<variable name="indent" value="36"/>
+		<variable name="indent_down" value="1728"/>
+		<variable name="indent_down_left" value="36"/>
+		<variable name="indent_l" value="0"/>
+		<variable name="indent_main_button" value="580"/>
+		<variable name="indent_main_button_c" value="300"/>
+		<variable name="indent_right" value="1070"/>
+		<variable name="indeter" value="1376" />
+		<variable name="input_color" value="#ffffff"/>
+		<variable name="input_height" value="64"/>
+		<variable name="input_line_width" value="3"/>
+		<variable name="keyboard_terminal_y" value="1053"/>
+		<variable name="keyboard_y" value="1149"/>
+		<variable name="list_font" value="small" persist="1"/>
+		<variable name="listbox_settings_height" value="960"/>
+		<variable name="listbox_timezone_height" value="756"/>
+		<variable name="location_addfile" value="/sdcard/Download" persist="1"/>
+		<variable name="location_install" value="/sdcard/Download" persist="1"/>
+		<variable name="location_install_image" value="/sdcard/Download" persist="1"/>
+		<variable name="location_install_splash_image" value="/sdcard/Download" persist="1"/>
+		<variable name="location_install_splash_png" value="/sdcard/Download" persist="1"/>
+		<variable name="location_themes" value="/sdcard/Download" persist="1"/>
+		<variable name="navbar_btn_y" value="1856"/>
+		<variable name="navbar_height" value="130"/>
+		<variable name="navbar_y" value="1792"/>
+		<variable name="partitionlist_backup_height" value="768"/>
+		<variable name="partitionlist_flashimage_height" value="544"/>
+		<variable name="partitionlist_mount_height" value="832"/>
+		<variable name="partitionlist_spacing" value="0"/>
+		<variable name="partitionlist_storage_height" value="544"/>
+		<variable name="partitionlist_wipe_height" value="1088"/>
+		<variable name="pattern_dot_dia" value="32"/>
+		<variable name="pattern_line_w" value="12"/>
+		<variable name="pattern_size" value="828"/>
+		<variable name="pattern_x" value="126"/>
+		<variable name="row10_y" value="832"/>
+		<variable name="row10a_y" value="864"/>
+		<variable name="row11_y" value="896"/>
+		<variable name="row11a_y" value="928"/>
+		<variable name="row12_y" value="960"/>
+		<variable name="row12a_y" value="992"/>
+		<variable name="row13_y" value="1024"/>
+		<variable name="row13a_y" value="1056"/>
+		<variable name="row14_y" value="1088"/>
+		<variable name="row14a_y" value="1120"/>
+		<variable name="row15_y" value="1152"/>
+		<variable name="row15a_y" value="1184"/>
+		<variable name="row16_y" value="1216"/>
+		<variable name="row16a_y" value="1248"/>
+		<variable name="row17_y" value="1280"/>
+		<variable name="row17a_y" value="1312"/>
+		<variable name="row18_y" value="1344"/>
+		<variable name="row18a_y" value="1376"/>
+		<variable name="row19_y" value="1408"/>
+		<variable name="row19a_y" value="1440"/>
+		<variable name="row1_1_y" value="300"/>
+		<variable name="row1_2_y" value="360"/>
+		<variable name="row1_header_y" value="4"/>
+		<variable name="row1_y" value="256"/>
+		<variable name="row1a_y" value="288"/>
+		<variable name="row20_y" value="1472"/>
+		<variable name="row20a_y" value="1504"/>
+		<variable name="row21_y" value="1536"/>
+		<variable name="row21a_y" value="1568"/>
+		<variable name="row22_y" value="1600"/>
+		<variable name="row22a_y" value="1632"/>
+		<variable name="row23_y" value="1664"/>
+		<variable name="row23a_y" value="1696"/>
+		<variable name="row24_y" value="1728"/>
+		<variable name="row24a_y" value="1760"/>
+		<variable name="row25_y" value="1792"/>
+		<variable name="row2_2_y" value="540"/>
+		<variable name="row2_3_y" value="600"/>
+		<variable name="row2_header_y" value="72"/>
+		<variable name="row2_input_y" value="381"/>
+		<variable name="row2_y" value="320"/>
+		<variable name="row2a_y" value="352"/>
+		<variable name="row3_2_y" value="750"/>
+		<variable name="row3_3_y" value="810"/>
+		<variable name="row3_header_y" value="90"/>
+		<variable name="row3_input_y" value="413"/>
+		<variable name="row3_y" value="384"/>
+		<variable name="row3a_y" value="416"/>
+		<variable name="row4_2_y" value="900"/>
+		<variable name="row4_3_y" value="960"/>
+		<variable name="row4_header_y" value="168"/>
+		<variable name="row4_input_y" value="477"/>
+		<variable name="row4_y" value="448"/>
+		<variable name="row4a_y" value="480"/>
+		<variable name="row5_1_y" value="1020"/>
+		<variable name="row5_2a_y" value="1110"/>
+		<variable name="row5_y" value="512"/>
+		<variable name="row5a_y" value="544"/>
+		<variable name="row6_1_y" value="1200"/>
+		<variable name="row6_3_y" value="1320"/>
+		<variable name="row6_y" value="576"/>
+		<variable name="row6a_y" value="608"/>
+		<variable name="row7_1_y" value="1380"/>
+		<variable name="row7_2a_y" value="1470"/>
+		<variable name="row7_3a_y" value="1620"/>
+		<variable name="row7_y" value="640"/>
+		<variable name="row7a_y" value="672"/>
+		<variable name="row8_1_y" value="1480"/>
+		<variable name="row8_y" value="704"/>
+		<variable name="row8a_y" value="736"/>
+		<variable name="row9_y" value="768"/>
+		<variable name="row9a_y" value="800"/>
+		<variable name="row_tab_y" value="346"/>
+		<variable name="screen_height" value="1920"/>
+		<variable name="screen_width" value="1080"/>
+		<variable name="semi_transparent" value="#00000099"/>
+		<variable name="show_cpu_temp" value="0" persist="1"/>
+		<variable name="slideout_bg_height" value="1720"/>
+		<variable name="slideout_height" value="1686"/>
+		<variable name="slider_x" value="540" />
+		<variable name="slidervalue_lineh" value="3"/>
+		<variable name="slidervalue_padding" value="0"/>
+		<variable name="slidervalue_sliderh" value="108"/>
+		<variable name="slidervalue_sliderw" value="72"/>
+		<variable name="status_height" value="72"/>
+		<variable name="tab3_col2_x" value="360"/>
+		<variable name="tab3_col3_x" value="720"/>
+		<variable name="tab3_width" value="360"/>
+		<variable name="tab4_col2_x" value="270"/>
+		<variable name="tab4_col4_x" value="810"/>
+		<variable name="tab4_width" value="270"/>
+		<variable name="tab5_centered_col1_x" value="108"/>
+		<variable name="tab5_centered_col2_x" value="324"/>
+		<variable name="tab5_centered_col4_x" value="756"/>
+		<variable name="tab5_centered_col5_x" value="972"/>
+		<variable name="tab5_col2_x" value="216"/>
+		<variable name="tab5_col3_x" value="432"/>
+		<variable name="tab5_col4_x" value="648"/>
+		<variable name="tab5_col5_x" value="864"/>
+		<variable name="tab5_width" value="216"/>
+		<variable name="tab_height" value="96"/>
+		<variable name="tab_indicator_height" value="6"/>
+		<variable name="tab_y" value="304"/>
+		<variable name="tabtheme_height" value="85"/>
+		<variable name="text_button_color" value="#EEEEEE"/>
+		<variable name="text_color" value="#EEEEEE"/>
+		<variable name="text_fail_color" value="#FF0101"/>
+		<variable name="text_success_color" value="#76FF03"/>
+		<variable name="theme_date" value="05/02/18"/>
+		<variable name="theme_version" value="Transparency"/>
+		<variable name="themeheader_color" value="#FFFFFF"/>
+		<variable name="transparent" value="#00000000"/>
+		<variable name="tw_hide_kb" value="0"/>
+		<variable name="tw_selectpng" value="0" persist="1"/>
+		<variable name="tw_samsung_navbar" value="0" persist="1"/>
+		<variable name="tw_theme_path" value="/data/media/0/TWRP/theme" persist="1"/>
+		<variable name="warning" value="#F8F8A0"/>
+	</variables>
+
+	<mousecursor>
+		<placement w="15" h="15"/>
+		<background color="#FFFF00FF" resource="cursor"/>
+		<speed multiplier="2.5"/>
+	</mousecursor>
+
+	<templates>
+		<template name="page">
+			
+		<image> 
+			<image resource="background"/> 
+			<placement y="0" x="0"/> 
+		</image>
+		
+		<image> 
+			<image resource="opacity"/> 
+			<placement y="0" x="0"/> 
+		</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="pbtimeup"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>%tw_version%</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="pbtimeup"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>CPU %tw_cpu_temp% °C</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="pbtimeup"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="pbtimeup"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>%tw_battery%</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="page_open">
+		
+		<image> 
+			<image resource="background"/> 
+			<placement y="0" x="0"/> 
+		</image>
+		
+		<image> 
+			<image resource="opacity"/> 
+			<placement y="0" x="0"/> 
+		</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="pbtimeup"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>%tw_version%</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="pbtimeup"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>CPU %tw_cpu_temp% °C</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="pbtimeup"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="pbtimeup"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>%tw_battery%</text>
+			</text>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="filemanageroptions">
+			<background color="%background_color%"/>
+<image> 
+<image resource="background_fmo"/> 
+<placement x="549" y="540"/> 
+</image>
+
+			<fill color="#ffffff00">
+				<condition var1="tw_simulate_actions" var2="0"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="0"/>
+				<font resource="pbtimeup"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>%tw_version%</text>
+			</text>
+
+			<text color="%header_color%">
+				<condition var1="show_cpu_temp" var2="1"/>
+				<font resource="pbtimeup"/>
+				<placement x="%indent%" y="%row1_header_y%"/>
+				<text>CPU %tw_cpu_temp% °C</text>
+			</text>
+
+			<text color="%header_color%">
+				<font resource="pbtimeup"/>
+				<placement x="%center_x%" y="%row1_header_y%" placement="5"/>
+				<text>%tw_time%</text>
+			</text>
+
+			<text color="%header_color%">
+				<conditions>
+					<condition var1="tw_no_battery_percent" var2="0"/>
+					<condition var1="tw_battery" op="&gt;" var2="0"/>
+					<condition var1="tw_battery" op="&lt;" var2="101"/>
+				</conditions>
+				<font resource="pbtimeup"/>
+				<placement x="%indent_right%" y="%row1_header_y%" placement="1"/>
+				<text>%tw_battery%</text>
+			</text>
+
+			<image>
+				<placement x="%indent_down%" y="%indent_down_left%"/>
+				<image resource="main_button_half_height_full_width"/>
+			</image>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+			
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="about">
+			
+		 	<image> 
+        		<image resource="background"/> 
+         	   <placement y="0" x="0"/> 
+     	   </image>
+     
+     	   <image> 
+				<image resource="opacity"/> 
+				<placement y="0" x="0"/> 
+		    </image>
+        
+           <image>
+				<placement x="62" y="50"/>
+				<image resource="gml_logo"/>
+			</image>
+       
+       	<fill color="%accent%">
+				<placement x="0" y="0" w="%screen_width%" h="%screen_height%"/>
+			</fill>
+			
+            <fill color="%accent%">
+				<placement x="75" y="690" w="935" h="1083"/>
+			</fill>
+			
+			<fill color="%accent%">
+				<placement x="82" y="697" w="920" h="1069"/>
+			</fill>
+
+			<fill color="%accent_color%">
+				<placement x="0" y="0" w="%screen_width%" h="%header_height%"/>
+			</fill>
+
+			<fill color="%text_fail_color%">
+				<condition var1="tw_simulate_actions" var2="1"/>
+				<placement x="0" y="0" w="%screen_width%" h="%status_height%"/>
+			</fill>
+			
+			<text color="%themeheader_color%">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="775"/>
+				<text>Theme:</text>
+			</text>
+			
+			<text color="%themeheader_color%">
+				<font resource="pbtimeup"/>
+				<placement x="370" y="775"/>
+				<text>%theme_version%</text>
+			</text>
+			
+			<text color="%themeheader_color%">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="900"/>
+				<text>Theme Designer:</text>
+			</text>
+			
+			<text color="#EEEEEE">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="960"/>
+				<text>G.M.L.(Pasakalis George)</text>
+			</text>
+			
+			<text color="%themeheader_color%">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="1050"/>
+				<text>Credits:</text>
+			</text>
+			
+			<text color="#EEEEEE">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="1110"/>
+				<text>Standard layout created by</text>
+			</text>
+
+			<text color="#EEEEEE">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="1170"/>
+				<text>G.M.L.(Pasakalis George)</text>
+			</text>
+
+			<text color="#EEEEEE">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="1230"/>
+				<text>Thanks to my wife for this idea</text>
+			</text>
+
+			<text color="#EEEEEE">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="1290"/>
+				<text>and my kids for the little help!!!</text>
+			</text>
+			
+			<text color="#EEEEEE">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="1350"/>
+				<text></text>
+			</text>
+			
+			<text color="#EEEEEE">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="1410"/>
+				<text></text>
+			</text>
+			
+			<text color="%themeheader_color%">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="1470"/>
+				<text>Version</text>
+			</text>
+			
+			<text color="#EEEEEE">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="1530"/>
+				<text>TWRP: %tw_version%</text>
+			</text>
+			
+			<text color="%themeheader_color%">
+				<font resource="pbtimeup"/>
+				<placement x="%col1_x_indent%" y="1630"/>
+				<text>Date Project :</text>
+			</text>
+			
+			<text color="#EEEEEE">
+				<font resource="pbtimeup"/>
+				<placement x="505" y="1630"/>
+				<text>%theme_date%</text>
+			</text>
+			
+			<fill color="#ffffff00">
+				<placement x="0" y="%navbar_y%" w="%screen_width%" h="%navbar_height%"/>
+			</fill>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%back_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<placement x="%center_x%" y="1850" placement="4"/>
+				<image resource="home"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">home</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="!=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="console"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="overlay">slideout</action>
+			</button>
+
+			<button>
+				<condition var1="tw_samsung_navbar" op="=" var2="1"/>
+				<placement x="%console_button_x%" y="%navbar_btn_y%" placement="4"/>
+				<image resource="back"/>
+				<condition var1="tw_busy" var2="0"/>
+				<action function="key">back</action>
+			</button>
+
+			<action>
+				<touch key="power"/>
+				<action function="togglebacklight"/>
+			</action>
+
+			<action>
+				<touch key="power+voldown"/>
+				<action function="screenshot"/>
+			</action>
+		</template>
+		
+		<template name="tabs_settings">
+			
+			<fill color="00000030">
+				<placement x="0" y="240" w="%screen_width%" h="tab_height"/>
+			</fill>
+
+			<button style="tabs_settings">
+				<text>{@settings_gen_hdr=General}</text>
+				<placement x="0" y="90" w="%tab4_width%" h="%tab_height%"/>
+				<action function="page">settings</action>
+			</button>
+
+			<button style="tabs_settings">
+				<text>{@settings_tz_btn=Time Zone}</text>
+				<placement x="270" y="90" w="%tab4_width%" h="%tab_height%"/>
+				<action function="page">settings_timezone</action>
+			</button>
+			
+			<button style="tabs_settings">
+				<text>{@rb_recovery_btn=Recovery}</text>
+				<placement x="540" y="90" w="%tab4_width%" h="%tab_height%"/>
+				<action function="page">settings_screen</action>
+			</button>
+			
+			<button style="tabs_settings">
+				<text>{@settings_language_btn=Language}</text>
+				<placement x="810" y="90" w="%tab4_width%" h="%tab_height%"/>
+				<action function="page">settings_language</action>
+			</button>
+		</template>
+		
+		<template name="console">
+			<console>
+				<placement x="%indent%" y="%row2_y%" w="%content_width%" h="%console_height%"/>
+			</console>
+
+			<fill color="%fileselector_linecolor%">
+				<placement x="%indent%" y="row2_y" w="%content_width%" h="input_line_width" placement="1"/>
+			</fill>
+
+			<fill color="%fileselector_linecolor%">
+				<placement x="%indent%" y="row17_y" w="%content_width%" h="input_line_width"/>
+			</fill>
+		</template>
+
+		<template name="console_terminal">
+			<console>
+				<placement x="%indent%" y="%row2_y%" w="content_width" h="%console_terminal_height%"/>
+			</console>
+
+			<fill color="%fileselector_linecolor%">
+				<placement x="%indent%" y="row2_y" w="%content_width%" h="input_line_width" placement="1"/>
+			</fill>
+
+			<fill color="%fileselector_linecolor%">
+				<placement x="%indent%" y="row11_y" w="%content_width%" h="input_line_width"/>
+			</fill>
+		</template>
+
+		<template name="keyboardterminaltemplate">
+			<keyboard>
+				<condition var1="tw_hide_kb" var2="0"/>
+				<placement x="0" y="%keyboard_terminal_y%" w="%screen_width%" h="96"/>
+				<keymargin x="0" y="0"/>
+				<background color="#00000030"/>
+				<key-alphanumeric color="#111111" font="keylabel" textcolor="#EEEEEE"/>
+				<key-other color="#ffffff00" font="keylabel-small" textcolor="#5b5b5bff"/>
+				<longpress font="keylabel-longpress" textcolor="#5b5b5bff" x="12" y="0"/>
+				<keylabel key="0:k:29" text="Ctrl"/>
+				<keylabel key="0:c:27" text="Esc"/>
+				<keylabel key="0:c:9" text="Tab"/>
+				<keylabel key="0:k:105" text="&lt;" resource="kb_arrow_left"/>
+				<keylabel key="0:k:108" text="v" resource="kb_arrow_down"/>
+				<keylabel key="0:k:103" text="^" resource="kb_arrow_up"/>
+				<keylabel key="0:k:106" text="&gt;" resource="kb_arrow_right"/>
+				<highlight color="%highlight_color%"/>
+				<ctrlhighlight color="#ffffff80"/>
+				<layout1>
+					<keysize height="96" width="154"/>
+					<row1 key01="155:k:29" key02="155:c:27" long02=":c:3" key03="154:c:9" key04="154:k:105" key05="154:k:108" key06="154:k:103" key07="154:k:106"/>
+				</layout1>
+			</keyboard>
+		</template>
+
+		<template name="keyboardtemplate">
+			<keyboard>
+				<condition var1="tw_hide_kb" var2="0"/>
+				<placement x="0" y="%keyboard_y%" w="1080" h="644"/>
+				<keymargin x="8" y="8"/>
+				<background color="#00000030"/>
+				<key-alphanumeric color="#ffffff00" font="keylabel" textcolor="#EEEEEE"/>
+				<key-other color="#ffffff00" font="keylabel-small" textcolor="#5b5b5bff"/>
+				<longpress font="keylabel-longpress" textcolor="#5b5b5bff" x="12" y="0"/>
+				<keylabel key="0:c:8" text="Bksp" resource="backspace"/>
+				<keylabel key="0:action" text="Enter" resource="enter"/>
+				<keylabel key=" " text="Space" resource="space"/>
+				<highlight color="%highlight_color%"/>
+				<capshighlight color="%highlight_color%"/>
+				<layout1>
+					<keysize height="161" width="108"/>
+					<row1 key01="q" long01="1" key02="w" long02="2" key03="e" long03="3" key04="r" long04="4" key05="t" long05="5" key06="y" long06="6" key07="u" long07="7" key08="i" long08="8" key09="o" long09="9" key10="p" long10="0"/>
+					<row2 key01="54:" key02="a" long02="@" key03="s" long03="#" key04="d" long04="$" key05="f" long05="%" key06="g" long06="&amp;" key07="h" long07="*" key08="j" long08="-" key09="k" long09="+" key10="l" long10="_" key11="54:"/>
+					<row3 key01="162:layout2" key02="z" long02="!" key03="x" long03="&quot;" key04="c" long04="'" key05="v" long05=":" key06="b" long06=";" key07="n" long07="/" key08="m" long08="?" key09="162:c:8"/>
+					<row4 key01="162:layout3" key02="/" key03="540: " key04="." key05="162:action"/>
+					<keylabel key="0:layout2" text="Shift" resource="shift"/>
+					<keylabel key="0:layout3" text="?123"/>
+				</layout1>
+				<layout2>
+					<keysize height="161" width="108" capslock="0" revert_layout="1"/>
+					<row1 key01="Q" long01="1" key02="W" long02="2" key03="E" long03="3" key04="R" long04="4" key05="T" long05="5" key06="Y" long06="6" key07="U" long07="7" key08="I" long08="8" key09="O" long09="9" key10="P" long10="0"/>
+					<row2 key01="54:" key02="A" long02="@" key03="S" long03="#" key04="D" long04="$" key05="F" long05="%" key06="G" long06="&amp;" key07="H" long07="*" key08="J" long08="-" key09="K" long09="+" key10="L" long10="_" key11="54:"/>
+					<row3 key01="162:layout1" key02="Z" long02="!" key03="X" long03="&quot;" key04="C" long04="'" key05="V" long05=":" key06="B" long06=";" key07="N" long07="/" key08="M" long08="?" key09="162:c:8"/>
+					<row4 key01="162:layout3" key02="/" key03="540: " key04="." key05="162:action"/>
+					<keylabel key="0:layout1" text="Shift" resource="shift_fill"/>
+					<keylabel key="0:layout3" text="?123"/>
+				</layout2>
+				<layout3>
+					<keysize height="161" width="108"/>
+					<row1 key01="1" key02="2" key03="3" key04="4" key05="5" key06="6" key07="7" key08="8" key09="9" key10="0"/>
+					<row2 key01="@" key02="#" key03="$" key04="%" key05="&amp;" key06="*" key07="-" key08="+" key09="(" key10=")"/>
+					<row3 key01="162:layout4" key02="!" key03="108:c:34" key04="'" key05=":" key06=";" key07="/" key08="?" key09="162:c:8"/>
+					<row4 key01="162:layout1" key02="," key03="540: " key04="." key05="162:action"/>
+					<keylabel key="0:layout1" text="ABC"/>
+					<keylabel key="0:layout4" text="~\{"/>
+				</layout3>
+				<layout4>
+					<keysize height="161" width="108"/>
+					<row1 key01="~" key02="`" key03="|" key04="108:" key05="108:" key06="108:" key07="%" key08="108:" key09="{" key10="}"/>
+					<row2 key01="108:" key02="108:" key03="108:" key04="108:" key05="108:" key06="^" key07="_" key08="=" key09="[" key10="]"/>
+					<row3 key01="162:layout3" key02="108:" key03="108:" key04="108:" key05="108:" key06="\" key07="&lt;" key08="&gt;" key09="162:c:8"/>
+					<row4 key01="162:layout1" key02="108:c:34" key03="540: " key04="." key05="162:action"/>
+					<keylabel key="0:layout1" text="ABC"/>
+					<keylabel key="0:layout3" text="?123"/>
+				</layout4>
+			</keyboard>
+		</template>
+	</templates>
+</recovery>
