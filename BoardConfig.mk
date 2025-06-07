@@ -129,4 +129,4 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TW_DEVICE_VERSION := Matrosov,inc.
 # TW_CUSTOM_THEME := device/sm/a01core/twres
-
+LZMA_RAMDISK_TARGETS := recovery
